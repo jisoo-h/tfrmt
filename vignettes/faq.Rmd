@@ -67,3 +67,8 @@ tfrmt(
   print_to_gt(es_data) %>%
   tab_options(container.width = 1000)
 ```
+
+### How do I output my table?
+
+tfrmt's print functions (print_to_gt, print_mock_gt) create gt objects, so we recommend taking advantage of gt's export capabilities. 
+gt's documentation for exporting to different file types: https://gt.rstudio.com/reference/gtsave.html
